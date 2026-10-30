@@ -1,0 +1,32 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-prod.properties
+
+# Java / Spring Boot
+**/target/
+**/logs/
+*.log
+
+# Node.js / Next.js
+**/node_modules/
+**/.next/
+**/out/
+**/coverage/
+**/build/
+
+# IDE and editor
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+
+# Operating system
+.DS_Store
+Thumbs.db
